@@ -1,0 +1,12 @@
+button {
+  background: black;
+  color: white;
+  font-size: 1em;
+  padding: 5px 10px;
+  font-family: 'Open Sans', sans-serif;
+  transition: 0.2s ease all;
+  &:hover {
+    cursor: pointer;
+    background: lighten(#000000, 30%);
+  }
+}
