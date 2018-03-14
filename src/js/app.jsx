@@ -9,7 +9,7 @@ const App = function(props) {
   return (
     <div>
       <Header />
-      <Button title="Click here" />
+      <Button title="click here" />
     </div>
   );
 };
