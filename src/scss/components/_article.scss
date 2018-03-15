@@ -1,0 +1,40 @@
+.article {
+  width: 23%;
+  border: 2px solid black;
+  margin-bottom: 30px;
+
+  @media only screen and (max-width: 900px) {
+    width: 30%;
+  }
+
+  @media only screen and (max-width: 700px) {
+    width: 45%;
+  }
+
+  @media only screen and (max-width: 400px) {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+    border-bottom: 2px solid black;
+  }
+
+  p {
+    padding: 20px;
+    text-align: center;
+
+    margin-top: -2px;
+    margin-bottom: -2px;
+  }
+
+  &:hover {
+    cursor: pointer;
+
+    p {
+      transition: background-color 0.3s ease;
+      background: black;
+      color: white;
+    }
+  }
+}
