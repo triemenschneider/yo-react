@@ -1,21 +1,36 @@
 .counter {
-  display: flex;
-  .increment,
-  .decrement {
-    border: 2px solid black;
-    padding: 20px;
-    width: 50px;
-    text-align: center;
-    &:hover {
-      background: black;
-      color: white;
-      transition: background-color 0.2s ease;
-      cursor: pointer;
+  margin-bottom: 30px;
+  h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  p {
+    line-height: 125%;
+    margin-bottom: 20px;
+    strong {
+      font-weight: bold;
     }
   }
-  .count {
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
-    padding: 20px;
+  .counter-widget {
+    display: flex;
+    .increment,
+    .decrement {
+      border: 2px solid black;
+      padding: 20px;
+      width: 50px;
+      text-align: center;
+      &:hover {
+        background: black;
+        color: white;
+        transition: background-color 0.2s ease;
+        cursor: pointer;
+      }
+    }
+    .count {
+      border-top: 2px solid black;
+      border-bottom: 2px solid black;
+      padding: 20px;
+    }
   }
 }
